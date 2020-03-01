@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Manjeet Singh">
-    <title>Goggles</title>
-    
+    <title>Goggles</title>    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -15,63 +14,50 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
-
-                              
-
+  <body>                         
     <header>
-      <div class="container-fluid header">
-        <div class="row  contact">
-          <div class="col-6  head-items">
-            <ul id="contactHead">
-              <li><img src="./assets/phone.png" alt="phone"><span class="text">123-5263-56</span></li>
-              <li><img src="./assets/envelop.png" alt="email"><span class="text">support@goggles.com</span></li>
-            </ul>
-          </div> 
-          
-          <div class="col-6" >
-            <ul id="socialNav">
-              <li><a href="#"><img src="./assets/skype.png" alt="skype"></a></li>
-              <li><a href="#"><img src="./assets/twitter.png" alt="twitter"></a></li>
-              <li><a href="#"><img src="./assets/google-plus.png" alt="google"></a></li>
-              <li><a href="#"><img src="./assets/fb.png" alt="facebook"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-
-                      
-    
-      <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="brand-logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-               
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Glasses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
+      <div class="row  contact-header">
+        <div class="col-6 contact-us">
+          <ul class="contact-us-item">
+            <li><img class="contact-img"  src="./assets/phone.png" alt="phone"><span class="text">123-5263-56</span></li>
+            <li><img class="contact-img"  src="./assets/envelop.png" alt="email"><span class="text">support@goggles.com</span></li>
+          </ul>
+        </div>          
+        <div class="col-6 social-nav">
+          <ul id="socialNav">
+            <li><a href="#"><img class="social-nav-img" src="./assets/fb.png" alt="facebook"></a></li>
+            <li><a href="#"><img class="social-nav-img" src="./assets/google-plus.png" alt="google"></a></li>           
+            <li><a href="#"><img class="social-nav-img" src="./assets/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img class="social-nav-img" src="./assets/skype.png" alt="skype"></a></li> 
           </ul>
         </div>
-        
-      </nav>
+      </div>
+    </header>                     
     
-                                 
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="#"><img class="navbar-logo" src="./assets/logo.png" alt="brand-logo"></a>      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Glasses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>            
+    </nav>                                   
 
-    <div class="container-fluid-sm">
+    <section class="banner">
       <div class="row banner">
         <div id="banner-text">
           <ul class="">
@@ -80,14 +66,33 @@
           </ul>
         </div>        
       </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row cont-row">
-        <div class="col-sm-6 img-col">
-          <img src="./assets/photo1.jpg" alt="photo1" class="img-pane">
+    </section>
+    
+    <main>
+      <section>
+        <div class="row cont-row">
+          <div class="col-sm-6 img-col">
+            <img src="./assets/photo1.jpg" alt="photo1" class="img-pane">
+          </div>
+          <div class=" col-sm-6 txt-col-1">
+            <h1 class="txt-col-h1">Lorem ipsum<br> dolor</h1>
+            <p class="txt-col-p">
+              Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit. 
+              Duis facilisis neque erat, ac 
+              laoreet erat placerat sit amet.
+              Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit. 
+              Duis facilisis neque erat, ac 
+              laoreet erat placerat sit amet.
+            </p>
+          </div>
+        </div>    
+        <div class="row cont-row">
+        <div class="col-sm-6 order-sm-12 img-col">
+          <img src="./assets/photo2.jpg" alt="photo2" class="img-pane">
         </div>
-        <div class=" col-sm-6 txt-col" id="txtCol">
+        <div class="col-sm-6 order-sm-2 txt-col-2">
           <h1 class="txt-col-h1">Lorem ipsum<br> dolor</h1>
           <p class="txt-col-p">
             Lorem ipsum dolor sit amet, 
@@ -99,46 +104,21 @@
             Duis facilisis neque erat, ac 
             laoreet erat placerat sit amet.
           </p>
+          </div>
         </div>
-      </div>    
-    
-      <div class="row cont-row">
-      <div class="col-sm-6 order-sm-12 img-col">
-        <img src="./assets/photo2.jpg" alt="photo2" class="img-pane">
-      </div>
-        <div class="col-sm-6 order-sm-2 txt-col">
-          <h1 class="txt-col-h1">Lorem ipsum<br> dolor</h1>
-            <p class="txt-col-p">
-              Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. 
-              Duis facilisis neque erat, ac 
-              laoreet erat placerat sit amet.
-              Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. 
-            Duis facilisis neque erat, ac 
-            laoreet erat placerat sit amet.
-            </p>
-        </div>
-      </div>
-    </div>
-  
+      </section>   
+      
+      <section id="textPane">
+        <p>Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit. 
+          Duis facilisis neque erat, ac 
+          laoreet erat placerat sit amet.
+          Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit.
+        </p>
+      </section> 
+    </main>
 
-   
-    
-    <div id="textPane">
-      <p>Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Duis facilisis neque erat, ac 
-        laoreet erat placerat sit amet.
-        Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit.
-      </p>
-    </div>
-
-
-    
-                                      
     <footer>Copyright &copy; <span>Goggles</span> 2019</footer>
-
   </body>
 </html>
