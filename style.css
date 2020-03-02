@@ -341,7 +341,7 @@ footer span {
   }
 
   .img-col{
-    padding-left: 40px;
+    padding:0 40px;
   }
   
   .txt-col-1, .txt-col-2{
