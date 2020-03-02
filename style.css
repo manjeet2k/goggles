@@ -16,7 +16,7 @@
 }
 
 .contact-us{
-  padding: 5px 0 0 20px;
+  padding: 5px 0 0 22px;
 }
 
 .contact-us-item{
@@ -50,6 +50,8 @@
   margin: 0;
   padding: 0;
   height: 90px;
+  background-color: white;
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, .5);
 }
 
 .navbar-brand{ 
@@ -87,7 +89,7 @@
 .nav-link{  
   padding-top: 18px;
   font-size: 15px;
-  letter-spacing: 1px;  
+  letter-spacing: .2px;  
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -233,7 +235,6 @@ footer span {
   }
   
   .txt-col-p{
-    margin-top: 21px;
     line-height: 28px;
     font-size: 14px;
   }
@@ -289,9 +290,8 @@ footer span {
   }
 
   .social-nav-img{
-    height: 16px;
-    position: relative;
-    top: -3px;
+    height: 22px;
+    padding-bottom: 5px;
   }
 
   .navbar {
@@ -343,24 +343,22 @@ footer span {
   .img-col{
     padding-left: 40px;
   }
-
+  
   .txt-col-1, .txt-col-2{
     padding-left:40px;
   }
-
   
   .txt-col {
     padding: 0 32px;
   }
 
   .txt-col-h1{
-    padding-left: 15px;
     font-size: 55px;
     line-height: 60px;
   }
 
-  .txt-col-p {
-    padding-left: 15px;
+  .txt-col-p{
+    padding: 0;
   }
 
   .txt-col-2{  
@@ -391,6 +389,11 @@ footer span {
     height: 20px ;
   }
 
+  .social-nav-img{
+    height: 25px;
+  }
+
+
   .navbar {
     height: 90px;
   }
@@ -405,7 +408,7 @@ footer span {
   }
 
   .nav-item {  
-    margin: 15px 30px ;   
+    margin: 15px 32px ;   
     background-color: white;    
   }
   
@@ -447,6 +450,7 @@ footer span {
 
   .txt-col-p {
     font-size: 17px;
+    
   }
   
   .txt-col-2 {
@@ -461,5 +465,4 @@ footer span {
     padding: 26px 0;
     line-height: 20%;
   }
-
 }
