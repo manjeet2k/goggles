@@ -1,67 +1,67 @@
 /* for smaller mobile devices */
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.contact-header{
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.contact-header {
   width: 100%;
   background-color:#1a1819;
   color: #b6b4b5;
-  margin: 0;
-  padding: 0;
   height: 66px;
   font-family: 'Open Sans', sans-serif;
 }
 
-.contact-us{
-  padding: 5px 0 0 22px;
-}
-
-.contact-us-item{
+.contact-us-item {
+  margin-top: 5px;
+  padding: 0 5px;
   list-style: none;
   font-size: 12px;
   font-weight: bold;
 }
 
-.contact-us-item li{
+.contact-us-item li {
   padding: 4px 0;
 }
 
-.text{
+.text {
   position: relative;
   top: 2px;
   left: 4px;
 }
 
-.social-nav ul{
+.social-nav ul  {
   list-style: none;
   float: right;
   margin-top: 30px;  
 }
 
-.social-nav li{
+.social-nav li  {
   display: inline;
   padding: 0 4px;
 }
 
-.navbar{
+.navbar {
   margin: 0;
   padding: 0;
   height: 90px;
   background-color: white;
-  box-shadow: 0 0 2px 4px rgba(0, 0, 0, .5);
 }
 
-.navbar-brand{ 
+.navbar-brand { 
   margin: 0 auto;
   position: relative;
   left: 27px;
   top: 2px;
 }
 
-.navbar-toggler-icon{ 
+.navbar-toggler-icon { 
   height: 1.7em;
   position: relative;
   top: 3px;
@@ -70,7 +70,7 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(64,185,186)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-#navbarNav{
+#navbarNav {
   width: 100%;
   position: absolute;
   z-index: 1;
@@ -80,13 +80,13 @@
   margin: 0;
 }
 
-.nav-item{ 
+.nav-item { 
   height: 60px; 
   background-color: #40b9ba;
   text-align: center;  
 }
 
-.nav-link{  
+.nav-link {  
   padding-top: 18px;
   font-size: 15px;
   letter-spacing: .2px;  
@@ -94,13 +94,13 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   height: 60px;
   color: black;
   background-color:#dcdedd;    
 }
 
-button:focus{  
+button:focus {  
   outline: none;
 }
 
@@ -113,7 +113,7 @@ button:focus{
   background-position: center center;   
 }
 
-.banner ul{
+.banner ul {
   list-style: none;
   position: relative;
   top: 80px;
@@ -129,36 +129,34 @@ button:focus{
   width: max-content;
 }
 
-.banner ul :last-child{
+.banner ul :last-child {
   width: 220px;
   font-size: 14px;
   padding: 5px;
   background-color: rgba(26, 24, 25, .8);
 }
 
-.img-col {
-  padding: 0 25px;
-}
 
-.txt-col-1{  
+
+.txt-col-1 {  
   margin-top: 10px;
   padding: 0 10px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.txt-col-2{  
+.txt-col-2 {  
   margin-top: 40px;
   padding: 0 10px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.txt-col-h1{
+.txt-col-h1 {
   font-size: 74px;  
   line-height: 1.1;
   color:black;
 }
 
-.txt-col-p{
+.txt-col-p {
   margin-top: 21px;
   line-height: 30px;
   padding-left: 5px;
@@ -170,15 +168,15 @@ button:focus{
   margin: 0;
 }
 
-.img-pane{
+.img-pane {
   max-width: 100%;
   max-height: 100%;   
 }
 
 
-#textPane{
+#textPane {
+  margin-top: 50px;
   text-align: center;
-  margin: 40px 10px 20px 10px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -201,9 +199,9 @@ footer span {
 
 /* for large mobile devices or in landscape mode */
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
 
-  .banner ul{
+  .banner ul {
     top: 80px;
     left: 30%;    
   }
@@ -212,34 +210,34 @@ footer span {
     padding:  40px 15px;
   }
   
- .img-col{
+ .img-col {
     padding: 0 10px;
   }
 
-  .txt-col-1{  
+  .txt-col-1 {  
     margin: 0px;
     padding-left: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
     height: auto;
   }
   
-  .txt-col-2{  
+  .txt-col-2 {  
     margin-top: 20px;
 
   }
 
-  .txt-col-h1{
+  .txt-col-h1 {
     font-size: 50px;
     line-height: 55px;
     color:black;
   }
   
-  .txt-col-p{
+  .txt-col-p {
     line-height: 28px;
     font-size: 14px;
   }
 
-  .img-pane{
+  .img-pane {
     max-width: 100%;
     max-height: 100%;     
   }
@@ -249,47 +247,47 @@ footer span {
 
 /* for tablet */
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
     
-  .contact-header{
+  .contact-header {
     height: 22px;
   }
 
-  .contact-us{
+  .contact-us {
     padding-top:0px;
     padding-left: 15px;
   }
 
-  .contact-us-item{
+  .contact-us-item {
     font-size: 10px;
     font-weight: bold;
     margin: 0 ;
     padding-top: 2px;
   }
 
-  .contact-us-item li{
+  .contact-us-item li {
     padding: 0 5px;
     display: inline;
   }
 
-  .contact-img{
+  .contact-img {
     height: 15px ;
   }
 
-  .text{
+  .text {
     top: 1px;    
   }
 
-  .social-nav ul{
+  .social-nav ul {
     margin: 0;
   }
 
-  .social-nav li{
+  .social-nav li {
     padding: 0 3px;
   }
 
-  .social-nav-img{
+  .social-nav-img {
     height: 22px;
     padding-bottom: 5px;
   }
@@ -298,12 +296,12 @@ footer span {
     height: 70px;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     margin: 0;
     padding-bottom: 15px;
   }
 
-  .navbar-logo{
+  .navbar-logo {
     height: 21px;
     width: 105px;
   }
@@ -313,7 +311,7 @@ footer span {
     top: 0;
   }
 
-  .nav-item {  
+  .nav-item {
     margin: 10px 20px ;   
     background-color: white;    
   }
@@ -331,7 +329,7 @@ footer span {
   }
 
 
-  .banner ul{
+  .banner ul {
     top: 80px;
     left: 80px;    
   }
@@ -340,11 +338,11 @@ footer span {
     padding:  55px 25px 20px 30px;
   }
 
-  .img-col{
+  .img-col {
     padding:0 40px;
   }
   
-  .txt-col-1, .txt-col-2{
+  .txt-col-1, .txt-col-2 {
     padding-left:40px;
   }
   
@@ -352,22 +350,21 @@ footer span {
     padding: 0 32px;
   }
 
-  .txt-col-h1{
+  .txt-col-h1 {
     font-size: 55px;
     line-height: 60px;
   }
 
-  .txt-col-p{
+  .txt-col-p {
     padding: 0;
   }
 
-  .txt-col-2{  
+  .txt-col-2 {  
     margin-top: 35px;
   }
 
   #textPane {
     font-size: 13px;
-    margin: 20px 40px 50px 40px;
   }
   
 }
@@ -376,20 +373,20 @@ footer span {
 
 @media (min-width: 992px) {
   
-  .contact-header{
+  .contact-header {
     height: 27px;
   }
 
-  .contact-us-item{
+  .contact-us-item {
     font-size: 12px;
     font-weight: 600;
   }
 
-  .contact-img{
+  .contact-img {
     height: 20px ;
   }
 
-  .social-nav-img{
+  .social-nav-img {
     height: 25px;
   }
 
@@ -402,7 +399,7 @@ footer span {
     left: 15px;
   }
 
-  .navbar-logo{
+  .navbar-logo {
     width: 100%;
     height: 100%;
   }
@@ -418,14 +415,15 @@ footer span {
     color: black;
     font-family: 'Open Sans', sans-serif;
   }
-  .banner{
+
+  .banner {
     height: 245px;
   }
 
   .banner ul {
     top: 95px;
     left: 110px;
-    }
+  }
 
   .banner ul :first-child {
     font-size: 18px;
