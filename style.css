@@ -18,9 +18,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.contact-container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
 .contact-us-item {
   margin-top: 5px;
-  padding-left: 5px;
+  padding-left: 20px;
   list-style: none;
   font-size: 12px;
   font-weight: bold;
@@ -28,12 +33,6 @@
 
 .contact-us-item li {
   padding: 4px 0;
-}
-
-.text {
-  position: relative;
-  top: 2px;
-  left: 4px;
 }
 
 .social-nav {
@@ -44,6 +43,7 @@
   list-style: none;
   float: right;
   margin-top: 30px;  
+  padding-right: 10px;
 }
 
 .social-nav li  {
@@ -60,9 +60,10 @@
 
 .navbar-brand { 
   margin: 0 auto;
-  position: relative;
-  left: 27px;
-  top: 2px;
+}
+
+.navbar-logo {
+  margin-left: 50px;
 }
 
 .navbar-toggler-icon { 
@@ -109,35 +110,50 @@ button:focus {
 }
 
 .banner {
-  margin: 0;
-  padding: 0;
   background-image: url(./assets/banner.jpg);
   background-size: cover;
   height: 196px;
   background-position: center center;   
 }
 
-.banner ul {
-  list-style: none;
-  position: relative;
-  top: 80px;
-  left: 10%;
-  color: white;
+.banner-text {
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.banner ul :first-child {
-  font-size: 15px;
-  font-weight: bolder;
-  padding: 3px 25px 0px 4px;
+.banner-head {
+  padding: 6px 25px 2px 6px;
+  margin-left: 8%;
+  margin-top: 40px;
   background-color: #40b9ba;
+  color: white;
   width: max-content;
 }
 
-.banner ul :last-child {
-  width: 220px;
-  font-size: 14px;
-  padding: 5px;
-  background-color: rgba(26, 24, 25, .8);
+.banner-head h6 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.banner-para {
+  width: 270px;
+  padding: 6px; 
+  margin-left: 8%;
+  color: white;
+  background-color: rgba(26, 24, 25, .7);
+}
+
+.banner-para p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.cont-row {
+  padding-top: 40px;
+  margin: 0;
 }
 
 .img-col {
@@ -167,11 +183,6 @@ button:focus {
   line-height: 30px;
   padding-left: 5px;
   padding-right: 15px;
-}
-
-.cont-row {
-  padding-top: 40px;
-  margin: 0;
 }
 
 .img-pane {
@@ -207,11 +218,8 @@ footer span {
 
 @media (min-width: 576px) {
 
-  .banner ul {
-    top: 80px;
-    left: 30%;    
-  }
-  
+
+
   .cont-row {
     padding:  40px 15px;
   }
@@ -255,14 +263,13 @@ footer span {
 
 @media (min-width: 768px) {
 
-    
   .contact-header {
     height: 22px;
   }
 
   .contact-us {
     padding-top:0px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
   .contact-us-item {
@@ -280,10 +287,6 @@ footer span {
 
   .contact-img {
     height: 15px ;
-  }
-
-  .text {
-    top: 1px;    
   }
 
   .social-nav ul {
@@ -311,6 +314,8 @@ footer span {
   .navbar-logo {
     height: 21px;
     width: 105px;
+    margin-top: 15px;
+    margin-left: 30px;
   }
 
   #navbarNav {
@@ -334,12 +339,6 @@ footer span {
     color: #40b9ba;
     background-color: white;
     height: 50px;
-  }
-
-
-  .banner ul {
-    top: 80px;
-    left: 80px;    
   }
 
   .cont-row {
@@ -398,18 +397,14 @@ footer span {
     height: 25px;
   }
 
-
   .navbar {
     height: 90px;
   }
 
-  .navbar-brand {
-    left: 15px;
-  }
-
   .navbar-logo {
-    width: 100%;
+    width: 140px;
     height: 100%;
+    margin-left: 15px;
   }
 
   .nav-item {  
@@ -427,27 +422,6 @@ footer span {
   .banner {
     height: 245px;
   }
-
-  .banner ul {
-    top: 95px;
-    left: 110px;
-  }
-
-  .banner ul :first-child {
-    font-size: 18px;
-    font-weight: bolder;
-    padding: 3px 30px 2px 4px;
-    background-color: #40b9ba;
-    width: max-content;
-  }
-
-  .banner ul :last-child {
-    width: 257px;
-    font-size: 16px;
-    padding: 5px;
-    line-height: 28px;
-    background-color: rgba(26, 24, 25, .7);
-  } 
 
   .cont-row{
     padding-left: 0;

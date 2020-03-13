@@ -38,68 +38,85 @@
   </head>
 
   <body>
-
     <header class="contact-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-7 contact-us">
-            <ul class="contact-us-item">
-              <li><img class="contact-img"  src="./assets/phone.png" alt="phone"><span class="text">123-5263-56</span></li>
-              <li><img class="contact-img"  src="./assets/envelop.png" alt="email"><span class="text">support@goggles.com</span></li>
-            </ul>
-          </div>          
-          <div class="col-5 social-nav">
-            <ul id="socialNav">
-              <li><a href="#"><img class="social-nav-img" src="./assets/fb.png" alt="facebook"></a></li>
-              <li><a href="#"><img class="social-nav-img" src="./assets/google-plus.png" alt="google"></a></li>           
-              <li><a href="#"><img class="social-nav-img" src="./assets/twitter.png" alt="twitter"></a></li>
-              <li><a href="#"><img class="social-nav-img" src="./assets/skype.png" alt="skype"></a></li> 
-            </ul>
-          </div>
+      <div class="d-flex justify-content-between contact-container">
+        <div class="d-flex contact-us">
+          <ul class="contact-us-item">
+            <li>
+              <img class="contact-img"  src="./assets/phone.png" alt="phone">
+              <span>123-5263-56</span>
+            </li>
+            <li>
+              <img class="contact-img"  src="./assets/envelop.png" alt="email">
+              <span>support@goggles.com</span>
+            </li>
+          </ul>
         </div>
-      </div>      
+        <div class="d-flex social-nav">
+          <ul id="socialNav">
+            <li>
+              <a href="#">
+                <img class="social-nav-img" src="./assets/fb.png" alt="facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="social-nav-img" src="./assets/google-plus.png" alt="google">
+              </a>
+            </li>           
+            <li>
+              <a href="#">
+                <img class="social-nav-img" src="./assets/twitter.png" alt="twitter">
+              </a>
+            </li>
+            <li>
+              <a href="#"><img class="social-nav-img" src="./assets/skype.png" alt="skype">
+              </a>
+            </li> 
+          </ul>
+        </div>
+      </div>        
     </header>
                          
     <div class="container p-0">
-    <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="#">
-        <img class="navbar-logo" src="./assets/logo.png" alt="brand-logo">
-      </a> 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Glasses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>            
-    </nav>
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">
+          <img class="navbar-logo" src="./assets/logo.png" alt="brand-logo">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Glasses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>            
+      </nav>
     </div>                                  
    
-    <main>      
-      <div class="banner">
-        <div  class="container">
-        <div class="row">
-          <div id="banner-text">
-            <ul>
-              <li>GOOGLES GLASSES</li>
-              <li>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</li>
-            </ul>
-          </div>        
-        </div>
-        </div>
-      </div>
+    <main>
+      <section class="d-flex align-items-center banner">
+        <div class="banner-text">
+          <div class="banner-head">
+            <h6>GOOGLES GLASSES</h6>
+          </div>
+          <div class="banner-para">
+            <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>      
+          </div>         
+        </div>     
+      </section>
+
       <section class="container">
         <div class="row justify-content-center cont-row">
           <div class="col-sm-6 col-lg-5 img-col">
